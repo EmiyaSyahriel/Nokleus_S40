@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Nokleus Live Wallpaper</string>
+    <string name="wallpaper_name">Nokleus Live Wallpaper</string>
+    <string name="wallpaper_description">Nokia S40 Classic Wallpaper</string>
+    <string name="title_activity_nok_l_w_setting">NokLWSetting</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="setting_header_sys">System</string>
+    <string name="setting_sys_speed">Speed Scale</string>
+    <string name="setting_sys_count">Particle Count</string>
+    <string name="setting_sys_fps">Frame Rate</string>
+    <string name="setting_sys_mode">Draw Mode</string>
+    <string name="setting_header_colors">Colors</string>
+    <string name="setting_color_bg">Background Color</string>
+    <string name="setting_color_a">Upper Color</string>
+    <string name="setting_color_b">Bottom Color</string>
+    <string name="setting_color_p">Particle Color</string>
+    <string name="mode_blended">Blended</string>
+    <string name="mode_batched_even">Batched (Even Odd)</string>
+    <string name="mode_batched_zero">Batched (Non Zero)</string>
+    <string name="mode_unknown">Unknown Mode</string>
+</resources>

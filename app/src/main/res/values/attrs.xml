@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ValueButton">
+        <attr name="iconDrawableReference" format="reference|color"/>
+        <attr name="hoverDrawable" format="reference|color"/>
+        <attr name="valueContent" format="string"/>
+    </declare-styleable>
+</resources>

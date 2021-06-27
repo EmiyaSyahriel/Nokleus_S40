@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/app_root"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5sp"
+                android:text="@string/setting_header_sys"
+                android:textSize="20sp" />
+
+            <id.psw.uiext.ValueButton
+                android:id="@+id/btn_speedscale"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/setting_sys_speed"
+                android:textSize="20dp"
+                app:hoverDrawable="?attr/colorPrimary"
+                app:iconDrawableReference="@drawable/ic_ffwd"
+                app:valueContent="1.0" />
+
+            <id.psw.uiext.ValueButton
+                android:id="@+id/btn_particlecount"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/setting_sys_count"
+                android:textSize="20dp"
+                app:hoverDrawable="?attr/colorPrimary"
+                app:iconDrawableReference="@drawable/ic_count"
+                app:valueContent="64" />
+
+            <id.psw.uiext.ValueButton
+                android:id="@+id/btn_fps"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/setting_sys_fps"
+                android:textSize="20dp"
+                app:hoverDrawable="?attr/colorPrimary"
+                app:iconDrawableReference="@drawable/ic_fps"
+                app:valueContent="60" />
+
+            <id.psw.uiext.ValueButton
+                android:id="@+id/btn_drawmode"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/setting_sys_mode"
+                android:textSize="20dp"
+                app:hoverDrawable="?attr/colorPrimary"
+                app:iconDrawableReference="@drawable/ic_masking"
+                app:valueContent="Normal" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5sp"
+                android:text="@string/setting_header_colors"
+                android:textSize="20sp" />
+
+            <id.psw.uiext.ValueButton
+                android:id="@+id/btn_backgroundColor"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/setting_color_bg"
+                android:textSize="20sp"
+                app:hoverDrawable="?attr/colorPrimary"
+                app:iconDrawableReference="@drawable/ic_color"
+                app:valueContent="0xFFFFFFFF" />
+
+            <id.psw.uiext.ValueButton
+                android:id="@+id/btn_uppercolor"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/setting_color_a"
+                android:textSize="20sp"
+                app:hoverDrawable="?attr/colorPrimary"
+                app:iconDrawableReference="@drawable/ic_color"
+                app:valueContent="0x0000FFFF" />
+
+            <id.psw.uiext.ValueButton
+                android:id="@+id/btn_bottomcolor"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/setting_color_b"
+                android:textSize="20sp"
+                app:hoverDrawable="?attr/colorPrimary"
+                app:iconDrawableReference="@drawable/ic_color"
+                app:valueContent="0x0099FFFF" />
+
+            <id.psw.uiext.ValueButton
+                android:id="@+id/btn_particleColor"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/setting_color_p"
+                android:textSize="20sp"
+                app:hoverDrawable="?attr/colorPrimary"
+                app:iconDrawableReference="@drawable/ic_color"
+                app:valueContent="0xFFFFFF88" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

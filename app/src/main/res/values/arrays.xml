@@ -1,0 +1,7 @@
+<resources>
+    <integer-array name="draw_mode">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+</resources>
